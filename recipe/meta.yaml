@@ -1,6 +1,6 @@
 {% set name = "ijson" %}
-{% set version = "2.3" %}
-{% set sha256sum = "ef5f9f6bf9e44f2e1721e72bcc82c7ac6bb012b525e0f8642dedf7ddc44cf474" %}
+{% set version = "2.4" %}
+{% set sha256sum = "b78bbb5617716ebf47aff67932bee4ec811909ef69b93c3925b2fe1f0fe4b98c" %}
 
 package:
   name: {{ name }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
