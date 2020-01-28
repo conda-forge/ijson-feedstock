@@ -1,6 +1,6 @@
 {% set name = "ijson" %}
-{% set version = "2.5.1" %}
-{% set sha256sum = "19ec46a2f7991004e5202ecee56c569616b8a7f95686ad7fd0a9ec81cac00269" %}
+{% set version = "2.6.0" %}
+{% set sha256sum = "65c3de82d9c2ad6d33d7836c9e753b85e63c0530eb97ad9a57aeaf35e17607d2" %}
 
 package:
   name: {{ name }}
