@@ -5,11 +5,13 @@ Home: https://github.com/isagalaev/ijson
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ijson-feedstock/blob/master/LICENSE.txt)
 
 Summary: Ijson is an iterative JSON parser with a standard Python iterator interface.
 
+Development: https://github.com/isagalaev/ijson
 
+Documentation: https://github.com/isagalaev/ijson
 
 Current build status
 ====================
