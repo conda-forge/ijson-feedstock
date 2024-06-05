@@ -9,16 +9,16 @@ source:
   sha256: 10294e9bf89cb713da05bc4790bdff616610432db561964827074898e174f917
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.4
+    - python >=3.5
     - pip
   run:
-    - python >=3.4
+    - python >=3.5
 
 test:
   imports:
@@ -30,12 +30,12 @@ test:
     - pip
 
 about:
-  home: https://github.com/isagalaev/ijson
+  home: https://github.com/ICRAR/ijson
   license: BSD-3-Clause
   license_file: LICENSE.txt
   summary: Ijson is an iterative JSON parser with a standard Python iterator interface.
-  doc_url: https://github.com/isagalaev/ijson
-  dev_url: https://github.com/isagalaev/ijson
+  doc_url: https://github.com/ICRAR/ijson
+  dev_url: https://github.com/ICRAR/ijson
 
 extra:
   recipe-maintainers:
