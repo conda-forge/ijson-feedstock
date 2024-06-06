@@ -1,4 +1,4 @@
-{% set version = "3.2.3" %}
+{% set version = "3.3.0" %}
 
 package:
   name: ijson
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/i/ijson/ijson-{{ version }}.tar.gz
-  sha256: 10294e9bf89cb713da05bc4790bdff616610432db561964827074898e174f917
+  sha256: 7f172e6ba1bee0d4c8f8ebd639577bfe429dee0f3f96775a067b8bae4492d8a0
 
 build:
   number: 0
