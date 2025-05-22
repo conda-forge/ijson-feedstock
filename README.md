@@ -148,4 +148,5 @@ Feedstock Maintainers
 =====================
 
 * [@rmax](https://github.com/rmax/)
+* [@synapticarbors](https://github.com/synapticarbors/)
 
