@@ -3,15 +3,15 @@ About ijson-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ijson-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/isagalaev/ijson
+Home: https://github.com/ICRAR/ijson
 
 Package license: BSD-3-Clause
 
 Summary: Ijson is an iterative JSON parser with a standard Python iterator interface.
 
-Development: https://github.com/isagalaev/ijson
+Development: https://github.com/ICRAR/ijson
 
-Documentation: https://github.com/isagalaev/ijson
+Documentation: https://github.com/ICRAR/ijson
 
 Current build status
 ====================
@@ -148,4 +148,5 @@ Feedstock Maintainers
 =====================
 
 * [@rmax](https://github.com/rmax/)
+* [@synapticarbors](https://github.com/synapticarbors/)
 
