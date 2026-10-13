@@ -12,7 +12,7 @@ source:
   sha256: ec8f9265524e724905ecf00bdd061c374baaa8d5045ef50425695fb06efb45f5
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-build-isolation --no-deps
 
@@ -30,7 +30,9 @@ tests:
         - ijson
         - ijson.backends
       pip_check: true
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - '*'
 
 about:
   license: BSD-3-Clause
