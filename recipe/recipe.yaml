@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "3.5.1"
+  version: "3.6.0"
 
 package:
   name: ijson
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/i/ijson/ijson-${{ version }}.tar.gz
-  sha256: af40bd1a85f55db0b8b30715c858761306bd92d5590148636f75c3309e6e76bd
+  sha256: ec8f9265524e724905ecf00bdd061c374baaa8d5045ef50425695fb06efb45f5
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-build-isolation --no-deps
 
